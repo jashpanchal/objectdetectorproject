@@ -1,0 +1,32 @@
+body{
+    background-size:cover;
+    background-position: center;
+}
+
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+.back_button{
+    background-color:crimson;
+    border-radius: 3px;
+    color: black;
+    margin-top: 2px;
+    margin-left: 2px;
+    border-width: 2px;
+    border-color: black
+}
+
+.back_button:hover{
+    background-color: darkred;
+    border-color: black;
+}
+canvas{
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+    margin-top:60px;
+    background-color: white;
+}

@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Object Detection Project</title>
+        <title>Remote</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -10,19 +10,15 @@
 
   <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
   
-  <link rel="stylesheet" type="text/css" href="web.css">
+  <link rel="stylesheet" type="text/css" href="remote.css">
     </head>
     <body background="bg.png">
+        <h1 class="btn btn-info heading">Object Detection : Remote</h1>
+        <div><li class="btn btn-danger back_button"><a href="index.html">Back</a></li></div><br>
         <center>
-        <h1 class="btn btn-info heading">Object Detection</h1>
-        <ul class="menu">
-            <div><li class="links"><a href="remote.html">Remote</a></li></div><br>
-            <div><li class="links"><a href="pen.html">Pen</a></li></div><br>
-            <div><li class="links"><a href=""></a></li></div><br>
-            <div><li class="links"><a href=""></a></li></div><br>
-            <div><li class="links"><a href=""></a></li></div>
-        </ul>
-        
+            <div><h3 class="btn btn-danger status" id="remote_status">Status: Detecting Objects</h3></div>
+            <h5 id="no_of_objects" class="btn btn-warning">Object given : 1; Number of Objects identified : Identifying</h5>
         </center>
+        <script src="remote.js"></script>
     </body>
 </html>
