@@ -1,0 +1,31 @@
+body{
+    background-size:cover;
+    background-position: center;
+}
+
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+.links{
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    display: inline;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.links:hover{
+    background-color: darkturquoise;
+}
+.menu{
+    font-family: fantasy;
+    z-index: 10;
+    cursor: pointer;
+    list-style: none;
+    padding-top: 20px;
+
+}
